@@ -16,158 +16,138 @@ print "Login Sukses WIB"
 reload(sys)
 sys.setdefaultencoding('utf-8')
 helpMessage= """ 
-
-  🅰🅽🅶🅴🅻 🅺🅴🆈🆆🅾🆁🅳
   
- ➣  Help 
- ➣  Lyric 
- ➣  Music 
- ➣  Wiki 
- ➣  Vidio
- ➣  Youtube
- ➣  Instagram
- ➣  Emoji
- ➣  Fancytext
- ➣  Info @ 
- ➣  Ping
- ➣  Time
- ➣  apakah
- ➣  Sticker 
- ➣  Ats
- ➣  /say
- ➣  /say-en
- ➣  /say-jp
- ➣  Dosa @
- ➣  Siapa
- ➣  Pm cast 
- ➣  Broadcast
- ➣  Spam @
- ➣  Lurking
- ➣  Result
- ➣  Setp
- ➣  View
- ➣  Link open
- ➣  Link close
- ➣  Gurl
- ➣  Steal name  @
- ➣  Steal Bio @
- ➣  Steal status @
- ➣  Steal mid @
- ➣  Steal contact @
- ➣  Steal cover @
- ➣  Steal pict @
- ➣  Steal group pict
- ➣  Midpict [mid]
- ➣  Copy @
- ➣  Kembali ke asli
- ➣  Spamg[on/off][no][txt]
- ➣  Spam add [text]
- ➣  Spam change [text]
- ➣  Spam start [number]
- ➣  Say [text]
- ➣  Me
- ➣  Speed / Sp
- ➣  Debug speed /Dsp
- ➣  My mid
- ➣  Gcreator
- ➣  Halo
- ➣  Bot contact
- ➣  Bot mid
- ➣  Creator
- ➣  System
- ➣  Iconfig
- ➣  Kernel
- ➣  Cpu
- ➣  Turn off bots
- ➣  Restart
- ➣  Remove chat
- ➣  Responsename
- ➣  Mc [mid]
- ➣  Auto join on/off
- ➣  Auto leave on/off
- ➣  Auto like on/off
- ➣  Welcome message on/off
- ➣  Auto notice on/off
- ➣  Blockinvite on/off
- ➣  Auto blockqr on/off
- ➣  Namelock on/off
- ➣  Mimic on/off
- ➣  Auto add on/off
- ➣  Check message
- ➣  Add message [text]
- ➣  Comment on/off
- ➣  Add comment [text]
- ➣  Check comment
- ➣  Backup on/off
- ➣  Gcancel [number]
- ➣  Update welcome [text]
- ➣  Check welcome message
- ➣  Rejectall
- ➣  Clean invites
- ➣  Clear invites
- ➣  Group list
- ➣  Banlist
- ➣  Admin list
- ➣  Settings
- ➣  Ginfo
- ➣  TL [text]
- ➣  Mimic list
- ➣  Details grup 
- ➣  Crash
- ➣  Add all
- ➣  Invite [mid]
- ➣  Invite user[contact]
- ➣  Invite me
- ➣  Join group
- ➣  Ban @
- ➣  Unban  @
- ➣  Ban group
- ➣  Del ban
- ➣  List ban group
- ➣  Banned [send contact]
- ➣  Unbanned [send contact]
- ➣  Ban repeat @
- ➣  Blacklist all
- ➣  Ban cek
- ➣  Clear banlist
- ➣  Mimic target @
- ➣  Mimic untarget @
- ➣  Add friend @
- ➣  Target @
- ➣  Del target @
- ➣  Target list
- ➣  Protect low
- ➣  Protect hight
- ➣  Admin on @
- ➣  Expel on @
- ➣  Expelall
- ➣  Cleanse
- ➣  Vkick @
- ➣  Nk [name]
- ➣  Kick [mid]
- ➣  Purge
- ➣  Ulti
- ➣  Recover
- ➣  Allbio [text]
- ➣  Comment [text]
- ➣  Message [text]
- ➣  Group name [text]
- ➣  Angel1-6 clone @
- ➣  Angel1-6 backup run
- ➣  Angel1-6 backup
- ➣  Angel1-6 rename:[text]
- ➣  All rename [text]
- ➣  Group name [text]
- ➣  Angel1-6  @bye
- ➣  Angel bye
- ➣  Angel join
- ➣  Center @bye
- ➣  Bye all group
- ➣  Leave group
- ➣  gift1-15
- ➣  Spam gift
-  
-  ᵃⁿᵍᵉˡ ᵇᵒᵗ ℬℽ W⃟   I⃟   B⃟   
+[♕]  Help 
+[♕]  Lyric 
+[♕]  Music 
+[♕]  Wiki 
+[♕]  Vidio
+[♕]  Youtube
+[♕]  Instagram
+[♕]  Emoji
+[♕]  Fancytext
+[♕]  Info @ 
+[♕]  Ping
+[♕]  Time
+[♕]  apakah
+[♕]  Sticker 
+[♕]  Ats
+[♕]  /say
+[♕]  /say-en
+[♕]  /say-jp
+[♕]  Dosa @
+[♕]  Siapa
+[♕]  Pm cast 
+[♕]  Broadcast
+[♕]  Spam @
+[♕]  Lurking
+[♕]  Result
+[♕]  Setp
+[♕]  View
+[♕]  Link open
+[♕]  Link close
+[♕]  Gurl
+[♕]  Steal name  @
+[♕]  Steal Bio @
+[♕]  Steal status @
+[♕]  Steal mid @
+[♕]  Steal contact @
+[♕]  Steal cover @
+[♕]  Steal pict @
+[♕]  Steal group pict
+[♕]  Midpict [mid]
+[♕]  Copy @
+[♕]  Kembali ke asli
+[♕]  Spamg[on/off][no][txt]
+[♕]  Spam add [text]
+[♕]  Spam change [text]
+[♕]  Spam start [number]
+[♕]  Say [text]
+[♕]  Me
+[♕]  Speed / Sp
+[♕]  Debug speed /Dsp
+[♕]  My mid
+[♕]  Gcreator
+[♕]  Halo
+[♕]  Bot contact
+[♕]  Bot mid
+[♕]  Creator
+[♕]  System
+[♕]  Iconfig
+[♕]  Kernel
+[♕]  Cpu
+[♕]  Turn off bots
+[♕]  Restart
+[♕]  Remove chat
+[♕]  Responsename
+[♕]  Mc [mid]
+[♕]  Auto join on/off
+[♕]  Auto leave on/off
+[♕]  Auto like on/off
+[♕]  Welcome message on/off
+[♕]  Auto notice on/off
+[♕]  Blockinvite on/off
+[♕]  Auto blockqr on/off
+[♕]  Namelock on/off
+[♕]  Mimic on/off
+[♕]  Auto add on/off
+[♕]  Check message
+[♕]  Add message [text]
+[♕]  Comment on/off
+[♕]  Add comment [text]
+[♕]  Check comment
+[♕]  Backup on/off
+[♕]  Gcancel [number]
+[♕]  Update welcome [text]
+[♕]  Check welcome message
+[♕]  Rejectall
+[♕]  Clean invites
+[♕]  Clear invites
+[♕]  Group list
+[♕]  Banlist
+[♕]  Settings
+[♕]  Ginfo
+[♕]  TL [text]
+[♕]  Mimic list
+[♕]  Details grup 
+[♕]  Crash
+[♕]  Add all
+[♕]  Invite [mid]
+[♕]  Invite user[contact]
+[♕]  Invite me
+[♕]  Join group
+[♕]  Ban @
+[♕]  Unban  @
+[♕]  Ban group
+[♕]  Del ban
+[♕]  List ban group
+[♕]  Banned [send contact]
+[♕]  Unbanned [send contact]
+[♕]  Ban repeat @
+[♕]  Blacklist all
+[♕]  Ban cek
+[♕]  Clear banlist
+[♕]  Mimic target @
+[♕]  Mimic untarget @
+[♕]  Add friend @
+[♕]  Target @
+[♕]  Del target @
+[♕]  Target list
+[♕]  Protect low
+[♕]  Protect hight
+[♕]  Cleanse
+[♕]  Vkick @
+[♕]  Nk [name]
+[♕]  Kick [mid]
+[♕]  Purge
+[♕]  Ulti
+[♕]  Recover
+[♕]  Allbio [text]
+[♕]  Comment [text]
+[♕]  Message [text]
+[♕]  Group name [text]
+[♕]  All rename [text]
+[♕]  Group name [text]
 """
 KAC=[cl]
 mid = cl.getProfile().mid
@@ -180,8 +160,8 @@ autoinvite = []
 autoleaveroom = []
 targets = []
 Bots=[mid]
-admin = ["u4a361586c55ac4ef218a0a9b78b2f1b3","u7c6d976a4f3f0ba998f7664dab9fc02b","u99615f517b6ae7fe1712cd5af5839573","u4fd239a77c16d1ea7853cd801f6c379d","u3be861eaf85ef27656cf9159916229ca","ub7325e8bdd7b3e676db4fd5bcbd939ff"]
-owner = ["u4a361586c55ac4ef218a0a9b78b2f1b3","u7c6d976a4f3f0ba998f7664dab9fc02b","u99615f517b6ae7fe1712cd5af5839573","u4fd239a77c16d1ea7853cd801f6c379d","u3be861eaf85ef27656cf9159916229ca","ub7325e8bdd7b3e676db4fd5bcbd939ff"]
+admin = [""]
+owner = [""]
 wait = {
     'contact':False,
     'autoJoin':True,
@@ -191,7 +171,7 @@ wait = {
     'autoAdd':False,
     'message':"Thanks for add Me",
     "lang":"JP",
-    "comment":"AutoLike by W⃟   I⃟   B⃟   ",
+    "comment":"Autolike By line.me/ti/p/~@enr7503k
     "welmsg":"welcome to group",
     "commentOn":True,
     "commentBlack":{},
